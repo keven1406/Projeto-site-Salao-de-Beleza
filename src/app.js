@@ -34,10 +34,10 @@ const cabecalho = elemento('header', {
 						justifyContent: 'space-between',
 						listStyle: 'none'
 					}
-				}, itensMenu
-					.map(item =>
-						elemento('li', {
-								key: item.slice(0,2) 
+			}, itensMenu
+				.map(item =>
+					elemento('li', {
+					key: item.slice(0,2) 
 							}, elemento('a', {
 									href: '#'
 								}, item
